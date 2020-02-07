@@ -9,6 +9,8 @@ This package provides a ```toggle``` field type for the [Backpack for Laravel](h
 
 ## Screenshots
 
+![Backpack Toggle Field Addon](https://user-images.githubusercontent.com/1032474/74032390-7db64d00-49bc-11ea-80dc-b7c84b2c2e65.png)
+
 ## Installation
 
 Via Composer
