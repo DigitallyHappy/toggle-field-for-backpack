@@ -23,7 +23,7 @@ Inside your custom CrudController:
 
 ```php
 $this->crud->addField([
-    'name' => 'checkbox',
+    'name' => 'agreed',
     'label' => 'I agree to the terms and conditions',
     'type' => 'example',
     'view_namespace' => 'toggle-field-for-backpack::fields',
@@ -49,7 +49,7 @@ cp -i vendor/digitallyhappy/addon/src/resources/views/fields/toggle.blade.php re
 **Step 2.** Remove the vendor namespace wherever you've used the field:
 ```diff
 $this->crud->addField([
-    'name' => 'checkbox',
+    'name' => 'agreed',
     'type' => 'toggle',
     'label' => 'I agree to the terms and conditions',
 -   'view_namespace' => 'toggle-field-for-backpack::fields'
