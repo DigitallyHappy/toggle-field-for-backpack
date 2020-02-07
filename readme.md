@@ -5,9 +5,7 @@
 
 This package provides a ```toggle``` field type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```toggle``` field allows admins to **easily toggle a boolean variable**.
 
-## IMPORTANT NOTE
-
-** This package has been created to make it easy for developers to share their custom fields with the Backpack community. You can use this package to get the ```toggle``` field type, sure. But you can also fork it, to create a Backpack addon. For more information on how to do this, check out Backpack's addon docs.**
+**This package has been created to make it easy for developers to share their custom fields with the Backpack community. You can use this package to get the ```toggle``` field type, sure. But you can also fork it, to create a Backpack addon. For more information on how to do this, check out Backpack's addon docs.**
 
 ## Screenshots
 
@@ -43,6 +41,7 @@ If you need to change the field in any way, you can easily publish the file to y
 ```bash
 # create the fields directory if it's not already there
 mkdir -p resources/views/vendor/backpack/crud/fields
+
 # copy the blade file inside the folder we created above
 cp -i vendor/digitallyhappy/addon/src/resources/views/fields/toggle.blade.php resources/views/vendor/backpack/crud/fields/example.blade.php
 ```
@@ -84,10 +83,10 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/backpack/addon.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/backpack/addon.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/digitallyhappy/toggle-field-for-backpack.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/digitallyhappy/toggle-field-for-backpack.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/backpack/addon
-[link-downloads]: https://packagist.org/packages/backpack/addon
-[link-author]: https://github.com/backpack
+[link-packagist]: https://packagist.org/packages/digitallyhappy/toggle-field-for-backpack
+[link-downloads]: https://packagist.org/packages/digitallyhappy/toggle-field-for-backpack
+[link-author]: https://github.com/digitallyhappy
 [link-contributors]: ../../contributors
