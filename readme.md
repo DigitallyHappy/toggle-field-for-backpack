@@ -1,9 +1,9 @@
-# Toggle Field for Backpack
+# Toggle Field for Backpack 4
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This package provides a ```toggle``` field type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```toggle``` field allows admins to **easily toggle a boolean variable**.
+This package provides a ```toggle``` field type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```toggle``` field allows admins to **_toggle_ the value of a boolean variable between true/false, in a prettier way**. It uses a CSS-only solution, so it has zero external dependencies and zero javascript.
 
 > **This package has been created to make it easy for developers to share their custom fields with the Backpack community. You can use this package to get the ```toggle``` field type, sure. But you can also fork it, to create a Backpack addon. For more information on how to do this, check out Backpack's addon docs.**
 
@@ -16,7 +16,7 @@ This package provides a ```toggle``` field type for the [Backpack for Laravel](h
 Via Composer
 
 ``` bash
-$ composer require digitallyhappy/toggle-field-for-backpack
+composer require digitallyhappy/toggle-field-for-backpack
 ```
 
 ## Usage
@@ -58,7 +58,7 @@ $this->crud->addField([
 ]);
 ```
 
-**Step 3.** Remove this package using composer. Since the package only provides that one file, and you're no longer using that file - it makes no sense to have the package installed any longer:
+**Step 3.** Uninstall this package. Since it only provides one file - ```toggle.blade.php```, and you're no longer using that file, it makes no sense to have the package installed:
 ```bash
 composer remove digitallyhappy/toggle-field-for-backpack
 ```
@@ -74,11 +74,12 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 ## Security
 
-If you discover any security related issues, please email author email instead of using the issue tracker.
+If you discover any security related issues, please email [the author](composer.json) instead of using the issue tracker.
 
 ## Credits
 
-- [author name][link-author]
+- [Adoptavia](https://github.com/adoptavia) - created the field type and shared it in [this thread](https://github.com/Laravel-Backpack/CRUD/issues/1724#issuecomment-441438326);
+- [Cristian Tabacitu](https://github.com/tabacitu) - polish & packaging;
 - [All Contributors][link-contributors]
 
 ## License
