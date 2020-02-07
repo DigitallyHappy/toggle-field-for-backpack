@@ -5,7 +5,7 @@
 
 This package provides a ```toggle``` field type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```toggle``` field allows admins to **easily toggle a boolean variable**.
 
-**This package has been created to make it easy for developers to share their custom fields with the Backpack community. You can use this package to get the ```toggle``` field type, sure. But you can also fork it, to create a Backpack addon. For more information on how to do this, check out Backpack's addon docs.**
+> **This package has been created to make it easy for developers to share their custom fields with the Backpack community. You can use this package to get the ```toggle``` field type, sure. But you can also fork it, to create a Backpack addon. For more information on how to do this, check out Backpack's addon docs.**
 
 ## Screenshots
 
@@ -52,7 +52,7 @@ $this->crud->addField([
     'name' => 'checkbox',
     'type' => 'toggle',
     'label' => 'I agree to the terms and conditions',
-    'view_namespace' => 'toggle-field-for-backpack::fields'
+-   'view_namespace' => 'toggle-field-for-backpack::fields'
 ]);
 ```
 
@@ -81,7 +81,7 @@ If you discover any security related issues, please email author email instead o
 
 ## License
 
-license. Please see the [license file](license.md) for more information.
+MIT. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/digitallyhappy/toggle-field-for-backpack.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/digitallyhappy/toggle-field-for-backpack.svg?style=flat-square
