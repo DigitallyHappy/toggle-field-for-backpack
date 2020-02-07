@@ -14,7 +14,7 @@ This package provides a ```toggle``` field type for the [Backpack for Laravel](h
 Via Composer
 
 ``` bash
-$ composer require backpack/toggle-field-for-backpack
+$ composer require digitallyhappy/toggle-field-for-backpack
 ```
 
 ## Usage
