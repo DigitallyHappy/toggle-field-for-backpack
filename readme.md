@@ -91,5 +91,5 @@ MIT. Please see the [license file](license.md) for more information.
 
 [link-packagist]: https://packagist.org/packages/digitallyhappy/toggle-field-for-backpack
 [link-downloads]: https://packagist.org/packages/digitallyhappy/toggle-field-for-backpack
-[link-author]: https://github.com/digitallyhappy
+[link-author]: https://tabacitu.ro
 [link-contributors]: ../../contributors

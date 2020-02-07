@@ -4,9 +4,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Author Name",
-            "email": "author@example.com",
-            "homepage": "http://www.example.com"
+            "name": "Cristian Tabacitu",
+            "email": "hello@tabacitu.ro",
+            "homepage": "https://tabacitu.ro"
         }
     ],
     "homepage": "https://github.com/digitallyhappy/toggle-field-for-backpack",
