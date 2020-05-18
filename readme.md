@@ -27,7 +27,7 @@ Inside your custom CrudController:
 $this->crud->addField([
     'name' => 'agreed',
     'label' => 'I agree to the terms and conditions',
-    'type' => 'example',
+    'type' => 'toggle',
     'view_namespace' => 'toggle-field-for-backpack::fields',
 ]);
 ```

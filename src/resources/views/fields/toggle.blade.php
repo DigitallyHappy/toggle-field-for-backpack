@@ -5,8 +5,8 @@
     Addon: https://github.com/digitallyhappy/toggle-field-for-backpack
 --}}
 
-<div @include('crud::inc.field_wrapper_attributes') >
-    @include('crud::inc.field_translatable_icon')
+@include('crud::fields.inc.wrapper_start')
+    @include('crud::fields.inc.translatable_icon')
     <div class="checkbox">
         <label class="switch">
             <input type="hidden" name="{{ $field['name'] }}" value="0">
@@ -35,7 +35,7 @@
             <p class="help-block">{!! $field['hint'] !!}</p>
         @endif
     </div>
-</div>
+@include('crud::fields.inc.wrapper_end')
 
 
 {{-- ########################################## --}}

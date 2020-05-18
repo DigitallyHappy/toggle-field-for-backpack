@@ -2,6 +2,16 @@
 
 All notable changes to the package will be documented in this file.
 
+## 2.0.0 - 2020-05-18
+
+### Added
+- compatibility with Backpack 4.1;
+
+### Removed
+- compatiblity with Backpack 4.0;
+
+------------
+
 ## 1.0.2 - 2020-02-07
 
 ### Fixed
