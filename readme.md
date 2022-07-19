@@ -3,10 +3,10 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-> **Warning**
-> This field is not compatible with `CRUD JS API` since it is a non-JS solution. But starting with v5.2, Backpack has a built-in field, that looks just like this one, works in more situations and is easier to customize. Please consider using [the official `switch` field](https://backpackforlaravel.com/docs/5.x/crud-fields#switch) instead of this.
-
 This package provides a ```toggle``` field type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```toggle``` field allows admins to **_toggle_ the value of a boolean variable between true/false, in a prettier way**. It uses a CSS-only solution, so it has zero external dependencies and zero javascript.
+
+> **Warning**
+> This field is not compatible with the v5.1 [CrudField JS Library](https://backpackforlaravel.com/docs/5.x/crud-fields-javascript-api) since it is a non-JS solution. But starting with v5.2, Backpack has a built-in field, that looks just like this one, works in more situations and is easier to customize. Please consider using [the official `switch` field](https://backpackforlaravel.com/docs/5.x/crud-fields#switch) instead of this.
 
 ## Screenshots
 
